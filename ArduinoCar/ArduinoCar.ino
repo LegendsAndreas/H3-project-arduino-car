@@ -8,6 +8,7 @@ void connectWifi();
 constexpr uint16_t WS_PORT = 81;
 WebSocketServer wss{WS_PORT};
 
+
 void setup() {
   Serial.begin(9600);
   connectWifi();
